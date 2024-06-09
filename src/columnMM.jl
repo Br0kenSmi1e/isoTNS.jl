@@ -1,4 +1,4 @@
-function left_columnMM(col::TNS)
+function columnMM(col::TNS)
     # from bottom to the top
     # 
     #        m
