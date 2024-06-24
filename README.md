@@ -16,16 +16,21 @@ Also, the center of canonical MPS can be moved to any site through a series of S
 ## Isometry
 Isometry is a property of maps.
 Consider a map $A$ from Hilbert space $\mathcal{H}_1$ to Hilbert space $\mathcal{H}_2$ and its Hermitian conjugation $A^\dagger$.
+
 $$
 A:\mathcal{H}_1\to\mathcal{H}_2,\quad A^\dagger:\mathcal{H}_2\to\mathcal{H}_1
 $$
+
 If $A$ satisfies the following two conditions
+
 $$
 A^\dagger A=I_2,
 $$
+
 $$
 AA^\dagger=P_1,
 $$
+
 then $A$ is a left isometric map,
 where $I_2$ is the identity of Hilbert space $\mathcal{H}_2$ and $P_1$ is a projection operator of Hilbert space $\mathcal{H}_1$.
 
