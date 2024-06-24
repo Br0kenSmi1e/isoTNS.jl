@@ -11,7 +11,7 @@ struct TNS{T} # construction:e.g. TNS(tns,3,3), a 3x3 tensor network state
 end
 
 include("siteMM.jl")
-#include("columnMM.jl")
+include("columnMM.jl")
 
 
 end
