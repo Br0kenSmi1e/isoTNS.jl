@@ -27,5 +27,5 @@ function columnMM(col::TNS)
     push!(isoCOL,A)
     Q = reshape(Diagonal(S)*V',:,size(Psi,5),size(Psi,6),1)
     push!(anciCOL,Q)
-    return isoCOL, anciCOL
+    return isoCOL[col.rows:-1:1], anciCOL[col.rows:-1:1]
 end

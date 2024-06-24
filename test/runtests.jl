@@ -5,6 +5,6 @@ using Test
     include("siteMM.jl")
 end
 
-#@testset "columnMM" begin
-#	include("columnMM.jl")
-#end
+@testset "columnMM" begin
+	include("columnMM.jl")
+end

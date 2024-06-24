@@ -6,11 +6,10 @@ using Test, isoTNS, OMEinsum
 	t3 = rand(ComplexF64, 2, 2, 1, 2, 2)
 	C = TNS([t1, t2, t3],3,1)
 	A, Q = columnMM(C)
-	Psi = Vector{Array}(undef,0)
-	for i in 1:3
-		Phi = ein"ijkms,slnt->ijklmtn"(A[i],Q[i])
-		Phi = reshape(Phi,size(Phi,1),size(Phi,2),size(Phi,3)*size(Phi,4),size(Phi,5)*size(Phi,6),size(Phi,7))
-		push!(Psi,Phi)
-	end
-	@test TNS(Psi,3,1) ≈ C
+	
+	ori = ein"ijkmn,abckd,efgch->jbfndhmg"(t1,t2,t3)
+	dec = ein"ijkmo,abckp,efgcq,osnr,ptds,quht->jbfndhmrgu"(A[1],A[2],A[3],Q[1],Q[2],Q[3])
+	dec = reshape(dec,2,2,2,2,2,2,1,1)
+	
+	@test dec ≈ ori
 end
