@@ -8,9 +8,9 @@ Isometric Tensor Network State (isoTNS) is a generalization of canonical Matrix 
 For one-dimensional systems, their states can be written into an one-dimensional tensor network, namely, MPS.
 
 <!-- a figure of MPS -->
-<div style="text-align:center;">
+<p align="center">
 <img src="./fig/MPS.png" width="80%">
-</div>
+</p>
 
 Through SVD decomposition, any MPS can be turned to its canonical form with center $\ell$,
 which is convenient for us to calculate site- $\ell$ expectation value.
