@@ -33,7 +33,38 @@ $$
 
 then $A$ is a left isometric map,
 where $I_2$ is the identity of Hilbert space $\mathcal{H}_2$ and $P_1$ is a projection operator of Hilbert space $\mathcal{H}_1$.
+A map is right isometric when its Hermitian conjugation is left isometric.
 
+A tesor can be treated as a linear transformation after we define input legs and output legs.
+
+<!-- a 5-rank tensor as example -->
+
+For a MPS, we can pick $n$ neighboring sites $V=m:m+n$, from $m$ to $m+n$.
+Suppose that the physical legs are inputs, and the two ancilla legs on the boundaries are outputs.
+Then, a linear transformation $T_{V\to\partial V}$ is defined.
+The generalized definition of canonical form with center $\ell$ is that:
+$T_{V\to\partial V}$ is isometric if $V=1:a$ for $a<\ell$, and
+$T_{V\to\partial V}$ is isometric if $V=a:N$ for $a>\ell$.
+
+For higher dimensional TNS, similar definition of canonical form can be given through this isometric criteria.
+As an example, for 2D-TNS, each site has 2 indices and is denoted as $\Lambda^{ab}$.
+A region of this TNS is denoted as $V=m:m+n,p:p+q$, which means the $m\leq a\leq m+n$ and $p\leq b\leq p+q$.
+Take the physical legs as inputs and ancilla legs on the boundaries as outputs, the linear transformation $T_{V\to\partial V}$ is well-defined.
+The conditions for this 2D-TNS to be canonical with center $(i,j)$ are that:
+<center>
+$T_{V\to\partial V}$ is isometric if $V=1:a,1:b$ for $a<i,b<j$,
+
+$T_{V\to\partial V}$ is isometric if $V=1:a,b:M$ for $a<i,b>j$,
+
+$T_{V\to\partial V}$ is isometric if $V=a:N,1:b$ for $a>i,b<j$,
+
+$T_{V\to\partial V}$ is isometric if $V=a:N,b:M$ for $a>i,b>j$.
+</center>
+Under this definition, any site- $(i,j)$ expectation value can be calculated locally.
+
+## Moses Move (MM)
+
+Moses Move (MM) is an efficient way to shift the center of 2D canonical TNS with only one single sweep.
 
 
 
