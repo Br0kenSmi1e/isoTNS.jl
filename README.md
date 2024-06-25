@@ -42,7 +42,7 @@ A tesor can be treated as a linear transformation after we define input legs and
 
 <!-- a 5-rank tensor as example -->
 <p align="center">
-<img src="./fig/transformation.png" width="50%">
+<img src="./fig/transformation.png" width="80%">
 </p>
 
 For a MPS, we can pick $n$ neighboring sites $V=m:m+n$, from $m$ to $m+n$.
@@ -80,19 +80,19 @@ Here we describe this process for one column of 2D-TNS.
 1.SVD decomposition.
 
 <p align="center">
-<img src="./fig/mm1.png" width="50%">
+<img src="./fig/mm1.png" width="80%">
 </p>
 
 2.Split the index $s$ into two indices $s_L, s_R$.
 
 <p align="center">
-<img src="./fig/mm2.png" width="50%">
+<img src="./fig/mm2.png" width="80%">
 </p>
 
 3.SVD decomposition.
 
 <p align="center">
-<img src="./fig/mm3.png" width="50%">
+<img src="./fig/mm3.png" width="80%">
 </p>
 
 
