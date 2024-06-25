@@ -8,6 +8,9 @@ Isometric Tensor Network State (isoTNS) is a generalization of canonical Matrix 
 For one-dimensional systems, their states can be written into an one-dimensional tensor network, namely, MPS.
 
 <!-- a figure of MPS -->
+<div style="text-align:center;">
+<img src="./fig/MPS.png" width="80%">
+</div>
 
 Through SVD decomposition, any MPS can be turned to its canonical form with center $\ell$,
 which is convenient for us to calculate site- $\ell$ expectation value.
@@ -64,11 +67,18 @@ $T_{V\to\partial V}$ is isometric if $V=a:N,b:M$ for $a>i$, $b>j$.
 
 </center>
 
-Under this definition, any site $(i,j)$ expectation value can be calculated locally.
+Under this definition, any site- $(i,j)$ expectation value can be calculated locally.
 
 ## Moses Move (MM)
 
 Moses Move (MM) is an efficient way to shift the center of 2D canonical TNS with only one single sweep.
+Here we describe this process for one column of 2D-TNS.
+
+1.SVD decomposition.
+
+2.Split the index $s$ into two indices $s_L, s_R$.
+
+3.SVD decomposition.
 
 
 
