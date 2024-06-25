@@ -53,7 +53,7 @@ $T_{V\to\partial V}$ is isometric if $V=1:a$ for $a<\ell$, and
 $T_{V\to\partial V}$ is isometric if $V=a:N$ for $a>\ell$.
 
 <p align="center">
-<img src="./fig/tns.png" width="80%">
+<img src="./fig/tns.png" width="50%">
 </p>
 
 For higher dimensional TNS, similar definition of canonical form can be given through this isometric criteria.
