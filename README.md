@@ -52,6 +52,10 @@ The generalized definition of canonical form with center $\ell$ is that:
 $T_{V\to\partial V}$ is isometric if $V=1:a$ for $a<\ell$, and
 $T_{V\to\partial V}$ is isometric if $V=a:N$ for $a>\ell$.
 
+<p align="center">
+<img src="./fig/tns.png" width="80%">
+</p>
+
 For higher dimensional TNS, similar definition of canonical form can be given through this isometric criteria.
 As an example, for 2D-TNS, each site has 2 indices and is denoted as $\Lambda^{ab}$.
 A region of this TNS is denoted as $V=m:m+n,p:p+q$, which means the $m\leq a\leq m+n$ and $p\leq b\leq p+q$.
@@ -93,6 +97,12 @@ Here we describe this process for one column of 2D-TNS.
 
 <p align="center">
 <img src="./fig/mm3.png" width="80%">
+</p>
+
+4.Apply the above process to each site of the column.
+
+<p align="center">
+<img src="./fig/mmcol.png" width="80%">
 </p>
 
 
