@@ -52,11 +52,11 @@ A region of this TNS is denoted as $V=m:m+n,p:p+q$, which means the $m\leq a\leq
 Take the physical legs as inputs and ancilla legs on the boundaries as outputs, the linear transformation $T_{V\to\partial V}$ is well-defined.
 The conditions for this 2D-TNS to be canonical with center $(i,j)$ are that:
 <center>
-$T_{V\to\partial V}$ is isometric if $V=1:a,1:b$ for $a<i,b<j$,
+$T_{V\to\partial V}$ is isometric if $V=1:a,1:b$ for $a&lt;i,b&lt;j$,
 
-$T_{V\to\partial V}$ is isometric if $V=1:a,b:M$ for $a<i,b>j$,
+$T_{V\to\partial V}$ is isometric if $V=1:a,b:M$ for $a&lt;i,b>j$,
 
-$T_{V\to\partial V}$ is isometric if $V=a:N,1:b$ for $a>i,b<j$,
+$T_{V\to\partial V}$ is isometric if $V=a:N,1:b$ for $a>i,b&lt;j$,
 
 $T_{V\to\partial V}$ is isometric if $V=a:N,b:M$ for $a>i,b>j$.
 </center>
