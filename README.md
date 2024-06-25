@@ -9,7 +9,7 @@ For one-dimensional systems, their states can be written into an one-dimensional
 
 <!-- a figure of MPS -->
 <p align="center">
-<img src="./fig/MPS.png" width="80%">
+<img src="./fig/MPS.png" width="50%">
 </p>
 
 Through SVD decomposition, any MPS can be turned to its canonical form with center $\ell$,
@@ -41,6 +41,9 @@ A map is right isometric when its Hermitian conjugation is left isometric.
 A tesor can be treated as a linear transformation after we define input legs and output legs.
 
 <!-- a 5-rank tensor as example -->
+<p align="center">
+<img src="./fig/transformation.png" width="50%">
+</p>
 
 For a MPS, we can pick $n$ neighboring sites $V=m:m+n$, from $m$ to $m+n$.
 Suppose that the physical legs are inputs, and the two ancilla legs on the boundaries are outputs.
@@ -55,7 +58,7 @@ A region of this TNS is denoted as $V=m:m+n,p:p+q$, which means the $m\leq a\leq
 Take the physical legs as inputs and ancilla legs on the boundaries as outputs, the linear transformation $T_{V\to\partial V}$ is well-defined.
 The conditions for this 2D-TNS to be canonical with center $(i,j)$ are that:
 
-<center>
+<p align="center">
 
 $T_{V\to\partial V}$ is isometric if $V=1:a,1:b$ for $a< i$, $b< j$,
 
@@ -65,7 +68,7 @@ $T_{V\to\partial V}$ is isometric if $V=a:N,1:b$ for $a>i$, $b< j$,
 
 $T_{V\to\partial V}$ is isometric if $V=a:N,b:M$ for $a>i$, $b>j$.
 
-</center>
+</p>
 
 Under this definition, any site- $(i,j)$ expectation value can be calculated locally.
 
@@ -76,10 +79,21 @@ Here we describe this process for one column of 2D-TNS.
 
 1.SVD decomposition.
 
+<p align="center">
+<img src="./fig/mm1.png" width="50%">
+</p>
+
 2.Split the index $s$ into two indices $s_L, s_R$.
+
+<p align="center">
+<img src="./fig/mm2.png" width="50%">
+</p>
 
 3.SVD decomposition.
 
+<p align="center">
+<img src="./fig/mm3.png" width="50%">
+</p>
 
 
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://LongliZheng.github.io/isoTNS.jl/stable/)
