@@ -62,7 +62,7 @@ $T_{V\to\partial V}$ is isometric if $V=a:N,1:b$ for $a>i$, $b< j$,
 $T_{V\to\partial V}$ is isometric if $V=a:N,b:M$ for $a>i$, $b>j$.
 
 </center>
-Under this definition, any site- $(i,j)$ expectation value can be calculated locally.
+Under this definition, any site- $ ( i , j ) $ expectation value can be calculated locally.
 
 ## Moses Move (MM)
 
